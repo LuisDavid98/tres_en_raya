@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./game.js"></script>
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <div class="table" id="table">
+    <div class="cell" onclick="onCellClick(this)"></div>
+    <div class="cell" onclick="onCellClick(this)"></div>
+    <div class="cell" onclick="onCellClick(this)"></div>
+    <div class="cell" onclick="onCellClick(this)"></div>
+    <div class="cell" onclick="onCellClick(this)"></div>
+    <div class="cell" onclick="onCellClick(this)"></div>
+    <div class="cell" onclick="onCellClick(this)"></div>
+    <div class="cell" onclick="onCellClick(this)"></div>
+    <div class="cell" onclick="onCellClick(this)"></div>
+  </div>
+  <div class="result">
+    <h3 class="result__title" id="result__title"></h3>
+    <button onclick="cleanTable()" class="result__button">
+      Reiniciar
+    </button>
+  </div>
+  
+</body>
+</html>
